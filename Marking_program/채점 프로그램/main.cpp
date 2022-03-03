@@ -9,7 +9,7 @@
 int main(void)
 {
 	SetConsoleTitle(TEXT("간단한 채점 프로그램"));		// 콘솔 타이틀 명
-	system("mode con:cols=70 lines=25");				// 콘솔창 크기
+	system("mode con:cols=70 lines=45");				// 콘솔창 크기
 	HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
 	CONSOLE_CURSOR_INFO ConsoleCursor;
 	ConsoleCursor.bVisible = false;	// 콘솔 숨기기

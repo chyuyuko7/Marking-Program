@@ -21,9 +21,9 @@ void grade::InitScore(void)
 {
 
 	system("cls");
-	cout << "문제 개수 입력:(10 이하만) : ";
+	cout << "문제 개수 입력:(20 이하만) : ";
 	cin >> len;
-	while (cin.fail() || len > 10 || len < 1)
+	while (cin.fail() || len > selLEN || len < 1)
 	{
 		system("cls");
 		cin.clear();
@@ -35,13 +35,13 @@ void grade::InitScore(void)
 	system("cls");
 	cout << "시작 번호 입력(80이하): ";
 	cin >> s_num;
-	while (cin.fail() || s_num > 80 || s_num < 0)
+	while (cin.fail() || s_num > s_LEN || s_num < 0)
 	{
 		system("cls");
 		cin.clear();
 		cin.ignore(10000, '\n');
 		cout << "## 올바른 숫자를 입력하세요 ##\n";
-		cout << "시작 번호 입력(80이하): ";
+		cout << "시작 번호 입력(70이하): ";
 		cin >> s_num;
 	}
 	selNum = new int[len];

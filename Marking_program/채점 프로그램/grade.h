@@ -8,6 +8,8 @@
 
 #define TABLE_X 5					// 테이블 X 좌표
 #define TABLE_Y 1					// 테이블 Y 좌표
+#define selLEN 20					// 문제 수
+#define s_LEN 70					// 시작 번호
 
 using namespace std;
 

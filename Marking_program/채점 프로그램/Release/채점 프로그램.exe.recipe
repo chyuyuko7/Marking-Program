@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\JK\Desktop\C++자료\Marking_program\x64\Debug\채점 프로그램.exe</FullPath>
+      <FullPath>C:\Users\JK\Desktop\C++자료\Marking_program\Release\채점 프로그램.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
